@@ -1,0 +1,30 @@
+
+
+git checkout -b branch_name target_branch_name
+
+
+git log --oneline --all --decorate --graph
+
+
+git config --global alias.logg 'log --oneline --all --decorate --graph'
+
+
+git init 
+git add filename
+git commit -m 'submit msg'
+git push 
+
+
+
+# 替换暂存区的文件
+git checkout filename
+
+# 替换本地commit区的文件
+git checkout HEAD filename
+
+
+git cat-file -p :filename      // 查看暂存区
+git cat-file -p barnchname:filename   // 查看commit 区
+
+// 分支合并
+git merge branch_name
