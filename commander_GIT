@@ -34,3 +34,6 @@ git merge branch_name
 get branch -vv
 
 get rebase 
+
+5.提交分支数据到远程服务器
+git push origin <local_branch_name>:<remote_branch_name>
