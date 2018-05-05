@@ -28,3 +28,9 @@ git cat-file -p barnchname:filename   // 查看commit 区
 
 // 分支合并
 git merge branch_name
+
+
+//查看远程分支和本地分支的对应关系
+get branch -vv
+
+get rebase 
